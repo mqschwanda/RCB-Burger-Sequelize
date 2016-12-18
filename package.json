@@ -1,5 +1,6 @@
 {
   "name": "burger",
+  "https": "https://github.com/mqschwanda/RCB-Burger-Sequelize",
   "version": "0.0.1",
   "repository": {
     "type": "git",

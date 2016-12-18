@@ -14,7 +14,7 @@ Configurable(config);
 ****/
 // CONFIGURE HERE:
 config.set('name',packageJSON.name.toUpperCase())
-      .set('github',packageJSON.repository.url)
+      .set('github',packageJSON.https)
       .set('description',packageJSON.description)
       .set('author',packageJSON.author);
 // END: configuration
