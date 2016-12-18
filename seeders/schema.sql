@@ -10,9 +10,9 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Create the `burgers_db` only if it does not already exist
-CREATE DATABASE /*!32312*/ IF NOT EXISTS `burgers_db` /*!40100 DEFAULT CHARACTER SET latin1 */;
+CREATE DATABASE /*!32312*/ IF NOT EXISTS `d9ebk8jlt5uo0wae` /*!40100 DEFAULT CHARACTER SET latin1 */;
 -- Use the the `burgers_db` database
-USE `burgers_db`;
+USE `d9ebk8jlt5uo0wae`;
 -- The `burgers` table will be deleted is it already exists in the `burgers_db` database.
 DROP TABLE IF EXISTS `burgers`;
 -- Table structure for table `burgers` --
