@@ -1,13 +1,24 @@
 ## Node Express Handlebars mySQL: Burger
-* Code: [Github](https://github.com/mqschwanda/RCB-Burger)  
-* Demo: [Heroku](https://rcb-burger.herokuapp.com/)
+* Code: [Github](https://github.com/mqschwanda/RCB-Burger-Sequelize)  
+* Demo: [Heroku](https://rcb-burger-sequelize.herokuapp.com/)
 
 ### Quick Start
 **mySQL is required for this application to function. If you do not have mySQL installed on your local machine [click here](https://dev.mysql.com/downloads/installer/) to install the proper software before continuing.**
-1. Clone the repo to your local machine.
+**mySQL is required for this application to function. If you do not have mySQL installed on your local machine [click here](https://dev.mysql.com/downloads/installer/) to install the proper software before continuing.**  
+* Clone the repo to your local machine.
 ```
-git clone https://github.com/mqschwanda/RCB-Burger.git
+git clone https://github.com/mqschwanda/RCB-Burger-Sequelize.git
 cd RCB-Burger
+```
+* Run mysql as root, you will be asked to enter your root password.  
+`mysql -u root -p`
+* With the `mysql>` command line tool running you will run the next three commands:   
+	* execute database schema file:  
+	`source seeders/schema.sql`      
+	* exit the mysql command line interface:  
+	`exit`
+* Run the scripts to start the application for the first time.
+```
 npm run setup
 npm run start
 ```
